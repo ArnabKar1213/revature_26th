@@ -1,0 +1,17 @@
+package ear;
+
+public class Domain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		
+		dom(s);
+	}
+	public void dom(String s) {
+		String s1[] = s.split("\\");
+		String s2 = s1[1];
+		System.out.println(s2);
+	}
+}

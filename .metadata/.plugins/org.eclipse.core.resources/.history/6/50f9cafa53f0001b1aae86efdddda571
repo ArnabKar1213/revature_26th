@@ -1,0 +1,17 @@
+
+public class StringTask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "hello hi good noon hope we got thread safety";
+		//String s1[] =s.split(" ");
+	
+	}
+	public static void LC(String s) {
+		String s1[] =s.split(" ");
+		StringBuilder sb = new StringBuilder();
+		for (String s2:s1) {
+			sb.append(Character.toUpperCase(s2.charAt(s2.length()-1).toUpperCase());
+		}
+	}
+}

@@ -1,0 +1,39 @@
+package Arrays_Prob;
+import java.util.*;
+public class myarr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the size of array");
+		Scanner sc = new Scanner(System.in);
+		int n=sc.nextInt();
+		int arr[] = new int[n];
+		for(int i=0;i<n;i++) {
+			arr[i]=sc.nextInt();
+		}
+		Arrays.sort(arr);
+		//int n1 =sc.nextInt();
+		//max(n1,arr);
+		pal(arr);
+	}
+	//public static void max(int n1,int arr[]) {
+	//	System.out.println(arr[n1-1]);
+	//4
+	//}
+	public static void pal(int arr[]) {
+		int sum=0,temp=0,r=0;
+		for(int t:arr) {
+			temp=t;
+			while(t>0) {
+				r=t%10;
+				sum=(sum*10) + r ;
+				t=t/10;
+			}
+			if(temp==sum)
+				System.out.print(temp + " ");
+		}
+	}
+
+}
+//22,34,67,88,99
+//0,1,2,3,4

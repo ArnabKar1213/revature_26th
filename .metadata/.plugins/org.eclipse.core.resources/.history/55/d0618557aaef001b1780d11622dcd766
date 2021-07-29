@@ -1,0 +1,12 @@
+package ear;
+
+public class Domain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public void dom(String s) {
+		String s1[] = s.split("\");
+	}
+}

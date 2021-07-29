@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Secure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc  = new Scanner(System.in);
+		String s = sc.nextLine();
+		extract(s);
+	}
+	public static void extract(String s) {
+		if(s.matches("https[A-Za-z]{1, }"))
+		System.out.println("Secure");
+	
+	if(s.matches("http[A-Za-z]{1, }"))
+		System.out.println("Not Secure");
+	}
+
+}

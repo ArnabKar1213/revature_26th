@@ -1,0 +1,13 @@
+package ear;
+import java.util.Scanner;
+public class Earth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double m = 5.972 ;
+		double l= Math.pow(10, 24);
+		
+		System.out.println( "" + l);
+	}
+
+}

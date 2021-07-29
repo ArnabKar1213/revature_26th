@@ -1,0 +1,16 @@
+
+public class Secure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void extract(String s) {
+		if(s.startsWith("https"))
+		System.out.println("Secure");
+	}
+	if(s.startsWith("http"))
+		System.out.println("Not Secure");
+	}
+
+}

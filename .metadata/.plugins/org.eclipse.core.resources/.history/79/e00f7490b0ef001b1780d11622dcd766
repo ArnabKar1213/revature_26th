@@ -1,0 +1,17 @@
+package ear;
+import java.util.Scanner;
+public class Domain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		 String s=sc.next();
+		dom(s);
+	}
+	public static void dom(String s) {
+		if(s.contains(https))
+			System.out.println("Secure");
+		String s2 = s1[1];
+		System.out.println(s2);
+	}
+}
